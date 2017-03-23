@@ -4,6 +4,7 @@ public static class Gigasecond
 {
     public static DateTime Date(DateTime birthDate)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        var seconds = Math.Pow(10, 9);
+        return birthDate.AddSeconds(seconds);
     }
 }
